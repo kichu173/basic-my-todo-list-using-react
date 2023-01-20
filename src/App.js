@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
 import List from "./List";
@@ -22,6 +21,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="wrapper">
+          <p>Todo - List</p>
           <div className="input-wrapper">
             <input
               value={currentItem}
